@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import org.apache.commons.io.FileUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;  
@@ -29,7 +30,7 @@ import com.javen.service.IUserService;
 // /user/**
 public class UserController {  
 	private static Logger log=LoggerFactory.getLogger(UserController.class);
-	 @Resource  
+	 @Autowired
 	 private IUserService userService;     
     
     // /user/test?id=1

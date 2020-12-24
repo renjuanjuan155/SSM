@@ -1,10 +1,9 @@
-package com.javen.dao;
+package com.javen.mapper;
 
 import com.javen.model.User;
 
 
-
-public interface IUserDao {
+public interface UserMapper {
     int deleteByPrimaryKey(Integer id);
 
     int insert(User record);

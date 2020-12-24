@@ -1,24 +1,27 @@
 package com.javen.service.impl;
-import javax.annotation.Resource;  
-  
 
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
-import org.springframework.stereotype.Service;  
-
-import com.javen.dao.IUserDao;
+import com.javen.mapper.UserMapper;
 import com.javen.model.User;
 import com.javen.service.IUserService;
   
   
 @Service("userService")  
 public class UserServiceImpl implements IUserService {  
-    @Resource  
-    private IUserDao userDao;  
+    @Autowired
+    private UserMapper userDao;
     
     public User getUserById(int userId) {  
-        // TODO Auto-generated method stub  
-        return this.userDao.selectByPrimaryKey(userId);  
+
+        User user = userDao.selectByPrimaryKey(userId);
+        int i = 0;
+        if (i ==0){
+            return user;
+        }
+        return user;
     }  
   
 }  
