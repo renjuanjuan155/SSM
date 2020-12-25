@@ -3,6 +3,7 @@ package com.javen.mapper;
 import com.javen.model.User;
 
 
+
 public interface UserMapper {
     int deleteByPrimaryKey(Integer id);
 

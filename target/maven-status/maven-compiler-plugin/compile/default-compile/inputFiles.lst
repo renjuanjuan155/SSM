@@ -1,5 +1,5 @@
-E:\Code\Java\Weixin\maven02\src\main\java\com\javen\model\User.java
-E:\Code\Java\Weixin\maven02\src\main\java\com\javen\dao\IUserDao.java
-E:\Code\Java\Weixin\maven02\src\main\java\com\javen\controller\UserController.java
-E:\Code\Java\Weixin\maven02\src\main\java\com\javen\service\IUserService.java
-E:\Code\Java\Weixin\maven02\src\main\java\com\javen\service\impl\UserServiceImpl.java
+D:\browser\SSM\src\main\java\com\javen\mapper\UserMapper.java
+D:\browser\SSM\src\main\java\com\javen\service\impl\UserServiceImpl.java
+D:\browser\SSM\src\main\java\com\javen\model\User.java
+D:\browser\SSM\src\main\java\com\javen\controller\UserController.java
+D:\browser\SSM\src\main\java\com\javen\service\IUserService.java

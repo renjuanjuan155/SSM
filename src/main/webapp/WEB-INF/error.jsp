@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>出错了出错了</title>
+    <title>error</title>
 </head>
 <body>
 

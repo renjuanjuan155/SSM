@@ -51,7 +51,7 @@
     </servlet>  
     <servlet-mapping>  <!--用来定义servlet所对应的URL-->
         <servlet-name>SpringMVC</servlet-name>  <!--指定servlet的名称-->
-        <!-- 此处可以可以配置成*.do，对应struts的后缀习惯 -->  
+        <!-- 此处可以可以配置成*.do，对应struts的后缀习惯 -->
         <url-pattern>/</url-pattern>  <!--指定servlet所对应的URL-->
     </servlet-mapping>
     <!--会话超时配置（单位为分钟）-->
@@ -88,16 +88,10 @@
 
         <error-code>404</error-code> <!--HTTP Error code,例如: 404、403-->
 
-        <location>/WEB-INF/error.html</location> <!--用来设置发生错误或异常时要显示的页面-->
+        <location>/WEB-INF/error.jsp</location> <!--用来设置发生错误或异常时要显示的页面-->
 
     </error-page>
 
-    <error-page>
 
-        <exception-type>java.lang.Exception</exception-type><!--设置可能会发生的java异常类型,例如:java.lang.Exception-->
-
-        <location>/WEB-INF/ExceptionError.html</location> <!--用来设置发生错误或异常时要显示的页面-->
-
-    </error-page>
   
 </web-app>  
